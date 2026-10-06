@@ -1,0 +1,20 @@
+# Shared dependencies from the existing working inference recipe.
+ultralytics>=8.4.63,<8.5
+nvidia-ml-py>=13,<14
+numpy>=2.4,<3
+opencv-python>=4.13,<5
+Pillow>=12,<13
+PyYAML>=6,<7
+scipy>=1.17,<2
+scikit-image>=0.26,<1
+timm>=1.0,<2
+matplotlib>=3.10,<4
+albumentations>=1.4,<3
+efficientnet-pytorch>=0.7.1,<0.8
+prefetch-generator>=1.0.3,<2
+pretrainedmodels>=0.7.4,<0.8
+seaborn>=0.13,<1
+tensorboardX>=2.6,<3
+torchinfo>=1.8,<2
+torchshow>=0.5,<1
+webcolors>=25,<26

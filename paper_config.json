@@ -1,0 +1,21 @@
+{
+  "reference_title": "Conservative Road-Scene Risk Assessment via Fail-Aware Multi-Model Fusion",
+  "primary_model": "YOLO11x-seg",
+  "yolo_weight": "yolo11x-seg.pt",
+  "aux_yolo_weight": "",
+  "confidence": 0.15,
+  "image_size": 960,
+  "yolo_imgszs": [960],
+  "hybrid_model": "HybridNets-D3",
+  "hybrid_input_size": 640,
+  "depth_model": "Depth Anything V2 ViT-L",
+  "depth_size": 518,
+  "distance_mode": "relative",
+  "adaptive_confidence": false,
+  "enhance_input": "auto",
+  "yolo_tta": "full",
+  "tile_inference": "off",
+  "precision_mode": "strict",
+  "reproduction_status": "Original hard-set IDs and per-image outputs missing; exact paper tables are unverified.",
+  "unspecified_in_pdf": ["enhance_input", "yolo_tta", "tile_inference", "precision_mode"]
+}
